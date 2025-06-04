@@ -23,6 +23,24 @@ header > h1{
 header > p{
     padding-bottom: 50px;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+section.imagem > p{
+    background-color: black;
+    width: 400px;
+}
 a{
     color: white;
     text-decoration: none;
@@ -30,9 +48,4 @@ a{
 }
 a:hover{
     text-decoration: underline;
-}
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
 }
